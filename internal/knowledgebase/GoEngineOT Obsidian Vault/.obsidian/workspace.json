@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. Go Engine OT/Folder Structure.md",
+                "file": "2. Misc/Go Lang Concepts/Error Handling Best Practices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Folder Structure"
+              "title": "Error Handling Best Practices"
             }
           }
         ],
@@ -201,9 +201,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6907dbc09b351b63",
+  "active": "f45ce5e67ac3f003",
   "lastOpenFiles": [
     "0. Go Engine OT/Folder Structure.md",
+    "2. Misc/Go Lang Concepts/Error Handling Best Practices.md",
+    "2. Misc/Go Lang Concepts/Error Handling.md",
+    "2. Misc/Go Lang Concepts",
     "2. Misc/Architecture Concepts/Coupling & Decoupling.md",
     "2. Misc/Architecture Concepts/Speed & Simplicity.md",
     "2. Misc/Architecture Concepts/Architecture 101.md",
