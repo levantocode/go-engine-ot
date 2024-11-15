@@ -4,6 +4,12 @@ type EventDispatcher struct {
 	listeners map[string][]func(Event) // map of event name & its functions being dispatched
 }
 
+func NewEventDispatcher() *EventDispatcher {
+	return &EventDispatcher{
+		listeners: make(map[string][]func(Event)),
+	}
+}
+
 func (eventDispatcher *EventDispatcher) Subscribe(eventName string, callback func(Event)) {
 	eventDispatcher.listeners[eventName] = append(eventDispatcher.listeners[eventName], callback)
 }
